@@ -1,0 +1,176 @@
+    body,
+    html {
+        font-family: cursive;
+        margin: 0;
+        height: 100%;
+    }
+    
+    body {
+        cursor: url("/cursors/cur102.cur"), auto !important;
+        background: linear-gradient(to right, grey, rgb(158, 93, 9) 20%, rgb(62, 62, 150), maroon);
+        max-width: 100%;
+    }
+    
+    img {
+        max-width: 100%;
+        max-height: 100%;
+        border-radius: 100px;
+    }
+    
+    .row {
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    
+    .nav {
+        margin: 0;
+        background-image: linear-gradient(to right, grey, rgb(94, 94, 226), maroon);
+    }
+    
+    .nav-pills>li+li {
+        margin: 0;
+    }
+    
+    .nav-pills>li>a {
+        margin: 0;
+        text-align: center;
+        color: black
+    }
+    
+    .nav-pills>li>a.active {
+        background-image: radial-gradient( rgb(94, 94, 226), brown 95%);
+    }
+    
+    .nav-pills>li>a:hover {
+        cursor: url("/cursors/cur171.cur"), auto !important;
+        background-color: rgb(160, 48, 7)!important;
+    }
+    
+    .tablink {
+        font-weight: bold;
+        background: radial-gradient( yellow, red);
+        cursor: url("/cursors/cur171.cur"), auto !important;
+        padding: 10px, 16px;
+        width: 150px;
+    }
+    
+    .tablink:hover {
+        background: brown;
+    }
+    
+    .tabcontent {
+        color: rgb(228, 222, 210);
+        display: none;
+        height: 100%;
+        margin-bottom: 40px;
+    }
+    
+    .form {
+        margin-bottom: 35px;
+    }
+    
+    .btn,
+    select {
+        cursor: url("/cursors/cur102.cur"), auto !important;
+    }
+    
+    .btn-block {
+        width: 180px;
+        font-size: 12px;
+        font-weight: bold;
+        color: black;
+        padding: 5px;
+        background: radial-gradient( yellow, red);
+    }
+    
+    .btn-block:hover {
+        cursor: url("/cursors/cur171.cur"), auto !important;
+        background: brown;
+    }
+    
+    .display-6,
+    .lead {
+        color: black;
+    }
+    
+    .display-6 {
+        font-size: 50px;
+    }
+    
+    .table-bordered {
+        text-align: center;
+        margin-top: 20px;
+        margin-left: 0 auto;
+        background: linear-gradient(to right, grey, maroon);
+    }
+    
+    .table-bordered>thead>tr>th {
+        text-align: center;
+    }
+    
+    .bot {
+        height: 15%;
+        background-image: linear-gradient(to right, grey, rgb(94, 94, 226), maroon);
+    }
+    
+    .sixty {
+        min-height: 60%;
+    }
+    
+    input[type="date"] {
+        cursor: url("/cursors/cur102.cur"), auto !important;
+    }
+    
+    input[type="date"]::-webkit-calendar-picker-indicator {
+        cursor: url("/cursors/cur102.cur"), auto !important;
+    }
+    
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
+    
+    .modal-backdrop {
+        background: linear-gradient( orange, blue);
+    }
+    
+    .modal-content {
+        background-color: wheat;
+        color: brown;
+    }
+    
+    .modal-footer>button {
+        background-color: wheat;
+    }
+    
+    .modal-footer>button:hover {
+        background-color: brown;
+    }
+    
+    .list-group-item {
+        border-width: 3px;
+        font-size: 20px;
+        border-color: brown;
+        text-align: center;
+        font-weight: bold;
+        background: linear-gradient(to right, rgb(94, 94, 226), rgb(209, 138, 6) 30%);
+        margin-top: 5px;
+    }
+    
+    .list-group>a {
+        padding: 5px;
+        color: black;
+    }
+    
+    .list-group>a:hover {
+        cursor: url("/cursors/cur171.cur"), auto !important;
+        background: brown;
+    }
+    
+    .myText {
+        position: absolute;
+        font-size: 200px;
+        color: yellowgreen;
+    }
